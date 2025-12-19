@@ -1,0 +1,47 @@
+{
+  "name": "coverlettermaker",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Cover Letter Maker - Create cover letters for job applications in seconds using local AI",
+  "author": "Stanley Ume",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "cover letter",
+    "maker",
+    "generator",
+    "ai",
+    "llm",
+    "ollama",
+    "local-ai",
+    "privacy",
+    "open-source"
+  ],
+  "homepage": "https://github.com/stanleyume/coverlettermaker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleyume/coverlettermaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanleyume/coverlettermaker/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.0.10",
+    "openai": "^4.73.0",
+    "pdf-parse": "^1.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.4",
+    "tailwindcss": "^4"
+  }
+}
